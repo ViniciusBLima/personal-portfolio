@@ -1,2 +1,2 @@
-# Porigolio pessoal 👨‍💻
+# Portfólio pessoal 👨‍💻
 Meu portfolio pessoal. 😁
