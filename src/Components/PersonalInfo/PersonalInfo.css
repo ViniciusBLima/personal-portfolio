@@ -1,0 +1,34 @@
+body{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px 16px;
+    
+}
+
+.personalPhoto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50vh;
+    border: 9px #36325b solid;
+}
+
+.infoHolder{
+    display: flex;
+    background-color:rgba(15, 12, 41, 0.5);
+    border-radius: 60px;
+}
+
+.textInfo, .personalPhoto{
+    color: rgb(215, 215, 215);
+    margin: 20px;
+}
+
+.email:link, .email:visited, .email:hover, .email:active{
+    color: rgb(215, 215, 215);
+}
+
