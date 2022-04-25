@@ -1,0 +1,35 @@
+.card{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-right: 20px;
+    margin-left: 85px;
+}
+
+.skillTable, .skillTitle{
+    color: rgb(215, 215, 215);
+}
+
+.languageTd{
+    text-align: left !important;
+}
+
+th{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.interessed{
+    color:#7fffd4
+}
+
+.nInteressed{
+    color: #FF7FAA
+}
+
+.checked{
+    color: #fffc5a
+}

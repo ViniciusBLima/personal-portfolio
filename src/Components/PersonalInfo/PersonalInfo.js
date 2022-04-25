@@ -1,21 +1,19 @@
 import React from "react";
 import './PersonalInfo.css'
-import image from '../../shared/images/viniciusLima.jpg'
 
 export default function PersonalInfo(props){
 
     return(
-        <div>
-            <div class="infoHolder">
-            <img class="personalPhoto" alt="Vinicius Lima" src={image}/>
-            <div class="textInfo">
-                <h1>Vinicius Lima</h1>
-                <h3>FullStack Developer</h3>
-                <p>Age: 21</p>
-                <p>Location: São Paulo - Brazil</p>
-                <p>Email: <a class="email" href="mailto: viniciusdelima54@gmail.com">viniciusdelima54@gmail.com</a></p>
-                <p>Skills</p>
-            </div>
+        <div className="primaryInfoHolder">
+            <div className="infoHolder">
+                <img className="personalPhoto" alt="Vinicius Lima" src='https://avatars.githubusercontent.com/u/61070094'/>
+                <div className="textInfo">
+                    <h1>Vinicius Lima</h1>
+                    <h3>FullStack Developer</h3>
+                    <p>Age: 21</p>
+                    <p>Location: São Paulo - Brazil</p>
+                    <p>Email: <a className="email" href="mailto: viniciusdelima54@gmail.com">viniciusdelima54@gmail.com</a></p>
+                </div>
             </div>
         </div>
     )
